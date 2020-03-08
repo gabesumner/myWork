@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Did_not_clone_the_demo_scoping_guide</fullName>
+    <active>true</active>
+    <errorConditionFormula>Scoping_Doc_URL__c = &quot;https://salesforce.quip.com/cWhyAJ5K1fH4&quot;</errorConditionFormula>
+    <errorDisplayField>Scoping_Doc_URL__c</errorDisplayField>
+    <errorMessage>Hey!  That&#39;s the master scoping doc url.  Open it, save it as a new document, and then enter that url in the box.</errorMessage>
+</ValidationRule>
